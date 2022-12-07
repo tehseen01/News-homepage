@@ -1,0 +1,21 @@
+$Off-white: hsl(36, 100%, 99%);
+$Grayish-blue: hsl(233, 8%, 79%);
+$Dark-grayish-blue: hsl(236, 13%, 42%);
+$Dark-grayish-blue-light: hsla(236, 13%, 42%, 0.5);
+$Very-dark-blue: hsl(240, 100%, 5%);
+$Soft-orange: hsl(35, 77%, 62%);
+$Soft-red: hsl(5, 85%, 63%);
+
+$easeOut: 0.5s ease-in-out;
+
+@mixin desktop {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
